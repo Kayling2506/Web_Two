@@ -1,17 +1,261 @@
 body{
     margin: 0px;
-    padding: 0px;
+    font-family: 'Cambria';
 }
 
-/* Configuracion de Contenedor */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+/*Tamaño de las fientes Principales*/
+h1{ font-size: 3.1em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.2em;}
+
+/* Tamaño de los Botones*/
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgba(248, 71, 22, 0.834);
+}
+
+/*Color de los Botones*/
+button:hover{
+    background-color: rgba(188, 56, 19, 0.951);
+}
+
+/*Tamaño de los Contenedores(Div sentrales)*/
 .contenedor{
-    margin: 20px;
-    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
 }
 
-/* Configuracion de Menu */
-menu{
+/*Color del encabezado(Menu)*/
+header{
+    background-color: #000;
+}
+
+/*Caracteristicas de la imagen Principal*/
+#Encabezado{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #fff;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/*Tamaño del boton principal*/
+#Encabezado button{
+    font-size: 1.8em;
+}
+
+/*Letras de resaldado Naranjas Principales*/
+#Encabezado samp{
+    color: rgba(253, 85, 39, 0.951);
+    font-size: 1.35em;
+    font-family: 'Georgia';
+}
+
+/*Tamaño de la Fuente*/
+header .logo{
     margin: 0px;
-    margin-left: 240px;
-    color: antiquewhite;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgba(253, 85, 39, 0.951);
+    font-size: 1.7em;
+}
+
+/*Encabezado(Contenedor)*/
+header .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Caracteristicas del menu(navegacion)*/
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+/*Caracteristicas de los parrafos*/
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.0em;
+}
+
+header a:hover{
+    color: rgba(197, 63, 27, 0.951);
+}
+
+/*Segundo Apartado*/
+/*Historia de la empresa*/
+#Quines-Somos .contenedor{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.nombre{
+    color: rgba(253, 85, 39, 0.951);
+}
+
+/*Tercer Apartado*/
+/*Configuraciones de Servicios*/
+#Nuestros-Programas{
+    background-color: rgba(19, 19, 19, 0.896);
+    color: #fff;
+}
+
+#Nuestros-Programas .contenedor{
+    text-align: center;
+    padding: 150px 25px;
+}
+
+#Nuestros-Programas h2{
+    padding-top: 0px;
+}
+
+#Nuestros-Programas p{
+    display: none; 
+}
+
+/*Caracteristicas de recuadros*/
+#Nuestros-Programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 30px;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+/*Primer Recuadro*/
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/mantenimiento.jpg);
+    
+}
+
+/*Segundo Recuadro*/
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/pexels-aizat-ramlan-9679179.jpg);
+    
+}
+
+/*Tercer Recuadro*/
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/pexels-alex-green-5699456.jpg);
+    
+}
+
+/*Cuarto Recuadro*/
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/redes.jpg);
+    
+}
+
+/*Quinto Recuadro*/
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/pexels-matej-716661.jpg);
+    
+}
+
+/*Cuarto Apartado*/
+/*Configuraciones del Contendor(Cracteristicas)*/
+#Caracteristicas .contenedor{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+/*Configuraciones de Caracteristicas*/
+#Caracteristicas li{
+    margin: 17px 0px;
+    font-weight: bold;
+}
+
+/*Quinto Apartado*/
+/*Configuracion de Contacto*/
+#aplica-ya{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color:rgba(19, 19, 19, 0.896);
+    height: 80vh;
+}
+
+#aplica-ya button{
+    font-size: 4vh;
+    padding: 15px 10px;
+}
+
+/*Sexto Apartado/*
+/*Pie de Pagina Principal*/
+footer{
+    background-color: #fff;
+}
+
+footer p{
+    margin: 0px;
+    padding: 20px;
+    color: rgba(19, 19, 19, 0.896);
+}
+
+footer .contenedor{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
