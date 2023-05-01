@@ -10,3 +10,8 @@ body{
 }
 
 /* Configuracion de Menu */
+menu{
+    margin: 0px;
+    margin-left: 240px;
+    color: antiquewhite;
+}
