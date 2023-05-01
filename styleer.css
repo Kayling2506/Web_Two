@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Configuracion de Contenedor */
+.contenedor{
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Configuracion de Menu */
