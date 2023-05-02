@@ -29,12 +29,12 @@ button{
     border: 1px solid rgba(0,0,0,0.5);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     color: white;
-    background-color: rgba(248, 71, 22, 0.834);
+    background-color: rgba(10, 239, 136, 0.951);
 }
 
 /*Color de los Botones*/
 button:hover{
-    background-color: rgba(188, 56, 19, 0.951);
+    background-color: rgba(5, 189, 106, 0.951);
 }
 
 /*Tamaño de los Contenedores(Div sentrales)*/
@@ -62,7 +62,7 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(img/);
+    ,url(img/portada.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -74,7 +74,7 @@ header{
 
 /*Letras de resaldado Naranjas Principales*/
 #Encabezado samp{
-    color: rgba(253, 85, 39, 0.951);
+    color: rgba(10, 239, 136, 0.951);
     font-size: 1.35em;
     font-family: 'Georgia';
 }
@@ -84,7 +84,7 @@ header .logo{
     margin: 0px;
     padding: 25px 30px;
     font-weight: bold;
-    color: rgba(253, 85, 39, 0.951);
+    color: rgba(10, 239, 136, 0.951);
     font-size: 1.7em;
 }
 
@@ -97,7 +97,6 @@ header .contenedor{
 
 /* Caracteristicas del menu(navegacion)*/
 header nav{
-    display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
@@ -108,11 +107,11 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
-    font-size: 1.0em;
+    font-size: 2.0em;
 }
 
 header a:hover{
-    color: rgba(197, 63, 27, 0.951);
+    color: rgba(10, 239, 136, 0.951);
 }
 
 /*Segundo Apartado*/
@@ -123,7 +122,8 @@ header a:hover{
 }
 
 .nombre{
-    color: rgba(253, 85, 39, 0.951);
+    color: rgba(10, 239, 136, 0.951);
+    font-family:'Gill Sans MT';
 }
 
 /*Tercer Apartado*/
@@ -162,7 +162,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(img/mantenimiento.jpg);
+    ,url(img/pexels-ahmed-akacha-7385834.jpg);
     
 }
 
@@ -173,7 +173,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(img/pexels-aizat-ramlan-9679179.jpg);
+    ,url(img/pexels-valeria-boltneva-842571.jpg);
     
 }
 
@@ -184,7 +184,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(img/pexels-alex-green-5699456.jpg);
+    ,url(img/pexels-cottonbro-studio-6191550.jpg);
     
 }
 
@@ -244,13 +244,13 @@ header a:hover{
 /*Sexto Apartado/*
 /*Pie de Pagina Principal*/
 footer{
-    background-color: #fff;
+    background-color: #181818;
 }
 
 footer p{
     margin: 0px;
     padding: 20px;
-    color: rgba(19, 19, 19, 0.896);
+    color: rgba(255, 255, 255, 0.896);
 }
 
 footer .contenedor{
@@ -258,4 +258,9 @@ footer .contenedor{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+/* Fuentes de Informacion Link */
+.contenedor li a{
+    text-decoration: none;
 }
