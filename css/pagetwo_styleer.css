@@ -113,6 +113,11 @@ header a:hover{
     border-radius: 15px;
 }
 
+a{
+    text-decoration: none;
+    color: rgba(10, 239, 136, 0.951);
+}
+
 /*Ultimo Apartado/*
 /*Pie de Pagina Principal*/
 footer{
