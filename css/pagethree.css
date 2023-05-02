@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    font-family: 'Cambria';
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+/*Tamaño de las fientes Principales*/
+h1{ font-size: 3.1em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.2em;}
+
+/*Tamaño de los Contenedores(Div sentrales)*/
+.contenedor{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*Color del encabezado(Menu)*/
+header{
+    background-color: #000;
+}
+
+/*Caracteristicas de la imagen Principal*/
+#Encabezado{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    color: #fff;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../img/pexels-cats-coming-920220.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*Letras de resaldado Naranjas Principales*/
+#Encabezado samp{
+    color: rgba(10, 239, 136, 0.951);
+    font-size: 1.00em;
+    font-family: 'Georgia';
+}
+
+/*Tamaño de la Fuente*/
+header .logo{
+    margin: 0px;
+    padding: 5px 30px;
+    font-weight: bold;
+    color: rgba(10, 239, 136, 0.951);
+    font-size: 0.5em;
+}
+
+/*Encabezado(Contenedor)*/
+header .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Caracteristicas del menu(navegacion)*/
+header nav{
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+/*Caracteristicas de los parrafos*/
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.0em;
+}
+
+header a:hover{
+    color: rgba(10, 239, 136, 0.951);
+}
+
+/*Segundo Apartado*/
+/*Informacion Extra*/
+#Quines-Somos .contenedor{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.nombre{
+    color: rgba(10, 239, 136, 0.951);
+    font-family:'Gill Sans MT';
+}
+
+/* Secmento */
+.secmento img{
+    height: 450px;
+    display: auto;
+    /* box-shadow: 3px 3px ,  0 0.10em; */
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(10, 239, 136, 0.951);
+}
+
+/*Ultimo Apartado/*
+/*Pie de Pagina Principal*/
+footer{
+    background-color: #181818;
+}
+
+footer p{
+    margin: 0px;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.896);
+}
+
+footer .contenedor{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
