@@ -223,24 +223,6 @@ header a:hover{
     font-weight: bold;
 }
 
-/*Quinto Apartado*/
-/*Configuracion de Contacto*/
-#aplica-ya{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    background-color:rgba(19, 19, 19, 0.896);
-    height: 80vh;
-}
-
-#aplica-ya button{
-    font-size: 4vh;
-    padding: 15px 10px;
-}
-
 /*Sexto Apartado/*
 /*Pie de Pagina Principal*/
 footer{
